@@ -1,0 +1,62 @@
+<!--
+ <div class="container-fluid">
+
+      <div class="row">
+
+        <div class="col-sm-9">
+
+          {% block conten %}
+
+	         {% for post in posts %}
+
+		         {% if post %}
+
+			          <h1>{{post.title}}</h1>
+
+			          <small>{{post.created}}</small>
+
+			          <hr>
+
+			          <p>	{{post.body}} </p>
+
+			          <hr>
+                    {% if post.comment_set %}
+
+			               {% for comment in post.comment_set.iter %}
+
+				               <p>{{comment.text}}</p>
+
+				               <hr>
+
+			                {% endfor %}
+
+                    {% endif %}
+
+                 {% endif %}
+
+	          {% endfor %}
+
+         {% endblock conten %}
+
+
+
+        </div>
+
+
+      </div>
+
+  </div>
+-->
+
+<!--
+<div>
+  <a href="#" class="fa fa-facebook"> </a>
+
+  <a href="#" class="fa fa-youtube"> </a>
+
+  <a href="#" class="fa fa-linkedin"> </a>
+
+  <a href="#" class="fa fa-google"> </a>
+
+</div>
+-->
