@@ -123,7 +123,7 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .text-container{
 
-  width:70%;
+  width:60%;
   margin:auto;
   font-size: 20px;
 }
@@ -602,6 +602,7 @@ margin:auto;
    border: 2px solid white;
    transition: all 0.25s linear;
    letter-spacing: 2px;
+   vertical-align: center;
  }
 
  .img-btn{
@@ -737,10 +738,11 @@ margin:auto;
   padding-bottom: 60px;
 }
 
-#short-desc-p{
+.short-desc-p{
 
-  font-size:16px;
+  font-size:17px;
   color:black;
+  line-height:150%;
 }
 
 #top-bar{
@@ -911,4 +913,32 @@ margin:auto;
       opacity: 1;
       transform: translateY(0);
   }
+}
+
+
+.about-h2{
+
+  padding-bottom:20px;
+}
+
+#fun-fact-div{
+
+  margin:auto;
+  /*border: 1px solid black;
+  background-color:#c1bfa8;*/
+  display: inline-block;
+  text-align: left;
+  padding:15px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+#fun-fact-ul{
+
+  padding-left:17px;
+}
+#fun-fact-ul li{
+
+  padding-top:10px;
+
 }
