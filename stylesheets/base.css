@@ -23,6 +23,9 @@ a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
 }
 
+p{
+}
+
 .row.vertical-align{
 
   display: flex;
@@ -123,7 +126,6 @@ a, a:hover, a:active, a:visited, a:focus {
 
 .text-container{
 
-  width:60%;
   margin:auto;
   font-size: 20px;
 }
@@ -238,9 +240,14 @@ margin:auto;
   cursor: pointer;
 }
 
+.small-width{
+
+  width:60%;
+}
 #proj-cont-1{
 
-  background-image: url("../media/alex-sunglasses.jpg");
+  background-image: url("../media/jtextedit.png");
+  background-position:left center;
 }
 
 #proj-cont-2{
@@ -289,12 +296,29 @@ margin:auto;
 
   background-color: #eee;
   width: 100%;
-  padding-top:70px;
+  padding-top:50px;
+  padding-bottom:30px;
+  color:black;
+}
+
+#about-row-2{
+
+  background-color: #eee;
+  width: 100%;
+  padding-top:30px;
   padding-bottom:50px;
   color:black;
 }
 
+#about-row-3{
 
+  background-color: #eee;
+  width: 100%;
+  padding-top:30px;
+  padding-bottom:70px;
+  color:black;
+  overflow:hidden;
+}
 
 
 
@@ -358,7 +382,8 @@ margin:auto;
    background-image:  linear-gradient(
       rgba(0, 0, 0, 0.75),
       rgba(0, 0, 0, 0.75)
-    ),url("../media/landscape-4.jpg");
+    ),url("../media/Alex2.jpg");
+    background-position: right center;
  }
 
  #tint-div-about{
@@ -571,7 +596,7 @@ margin:auto;
   animation-fill-mode: both;
 }
 
-#name{
+.name{
 
   font-weight:bold;
   font-size: 56px;
@@ -581,22 +606,42 @@ margin:auto;
 }
 
 
-#buttons{
+.buttons{
 
   width:100%;
   height:100%;
+
+
 }
+
+#resume-buttons{
+
+  animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay:2s;
+    animation-duration: .75s;
+    animation-fill-mode:both;
+}
+
+
 
 .btn-cont{
 
   display:inline-block;
   width:50%;
 }
+
+#resume-btn-cont{
+
+  width:75%;
+}
+
  .main-btn{
    background-color: transparent;
    text-decoration: none;
    text-align: center;
-   padding:10px;
+   padding:13px;
    padding-left: 20px;
    padding-right: 20px;
    border: 2px solid white;
@@ -648,6 +693,21 @@ margin:auto;
 }
 
 #hire-btn:hover{
+
+  color: rgba(0,0,0,0.5);
+  background-color:white;
+}
+
+#resume-btn{
+
+  padding-left:28px;
+  padding-right: 28px;
+  color:white;
+  text-decoration:none;
+  margin-top:25px;
+}
+
+#resume-btn:hover{
 
   color: rgba(0,0,0,0.5);
   background-color:white;
@@ -888,13 +948,7 @@ margin:auto;
 
 }
 
-#about-title{
-
-  font-weight:bold;
-  font-size: 56px;
-  text-shadow: 1px 1px black;
-  letter-spacing: 5px;
-  font-family: "Cabin";
+.fade-up-title{
 
   animation-duration: .75s;
   animation-delay: 1.25s;
@@ -916,6 +970,13 @@ margin:auto;
 }
 
 
+#resume-anim-div{
+
+  animation-duration: .75s;
+  animation-delay: 1.25s;
+  animation-name: fadeInAndUp;
+  animation-fill-mode: both;
+}
 .about-h2{
 
   padding-bottom:20px;
@@ -931,6 +992,7 @@ margin:auto;
   padding:15px;
   padding-top:0px;
   padding-bottom:0px;
+  font-size:17px;
 }
 
 #fun-fact-ul{
@@ -941,4 +1003,48 @@ margin:auto;
 
   padding-top:10px;
 
+}
+
+.img-container{
+
+  display:inline-block;
+  width:80%;
+  margin:auto;
+  font-size:0;
+}
+
+
+
+.grid-image{
+
+  width:150px;
+  height:50%;
+  display:inline-block;
+  padding:0px;
+  margin:0px;
+  object-fit: cover;
+  filter: brightness(80
+    %);
+}
+
+#fun-fact-container{
+
+  display:inline-block;
+
+}
+
+.skill-div{
+
+  display: inline-block;
+  font-size:17px;
+  margin-top:10px;
+
+}
+
+resume-anim-div{
+
+  animation-duration: 1.5s;
+  animation-delay: 1.25s;
+  animation-name: fadeInAndUp;
+  animation-fill-mode: both;
 }
