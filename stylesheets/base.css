@@ -19,8 +19,13 @@ button{
   letter-spacing: 2px;
 }
 
+button:focus {
+  outline:0;
+}
+
 a, a:hover, a:active, a:visited, a:focus {
     text-decoration:none;
+    decoration:none;
 }
 
 p{
@@ -252,7 +257,7 @@ margin:auto;
 
 #proj-cont-2{
 
-  background-image: url("../media/alex-sunglasses.jpg");
+  background-image: url("../media/comebackking.png");
 }
 
 #proj-cont-3{
@@ -637,11 +642,11 @@ margin:auto;
   width:75%;
 }
 
- .main-btn{
+ .main-btn, .main-btn:visited{
    background-color: transparent;
    text-decoration: none;
    text-align: center;
-   padding:13px;
+   padding:12px;
    padding-left: 20px;
    padding-right: 20px;
    border: 2px solid white;
@@ -721,7 +726,7 @@ margin:auto;
 }
 
 
-.project-btn{
+.project-btn, .project-btn:visited{
 
     display: block;
     border-color: #333b42;
@@ -745,6 +750,11 @@ margin:auto;
   cursor: pointer;
   color: #efefea;
   background-color:#333b42;
+}
+
+.see-more-a{
+
+
 }
 
 #blog-btn{
@@ -1033,12 +1043,41 @@ margin:auto;
 
 }
 
+#resume-skills{
+
+  width:90%;
+}
+
 .skill-div{
 
   display: inline-block;
   font-size:17px;
   margin-top:10px;
+  margin-right:20px;
+  text-align: left;s
 
+}
+
+.experience-cont{
+
+  width:70%;
+  margin:auto;
+  padding-top:20px;
+}
+
+.experience-cont span{
+
+  font-weight: 700;
+}
+
+.experience-cont em{
+
+
+}
+
+.experience-cont p{
+
+  font-size:17px;
 }
 
 resume-anim-div{
