@@ -589,8 +589,8 @@ margin:auto;
 
 #title-small{
 
-  margin-left: 4em;
-  margin-right: 4em;
+
+  width:100%;
 }
 
 #splitter{
@@ -1262,9 +1262,14 @@ resume-anim-div{
 
   #hire-btn,#work-btn{
 
-    font-size:10px;
+    font-size:12px;
     padding-left:10px;
     padding-right:10px;
+  }
+
+  #splitter{
+
+    width:90%;
   }
 
 
