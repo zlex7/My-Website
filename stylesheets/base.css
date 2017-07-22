@@ -1071,7 +1071,7 @@ margin:auto;
   font-size:17px;
   margin-top:10px;
   margin-right:20px;
-  text-align: left;s
+  text-align: left;
 
 }
 
@@ -1220,6 +1220,11 @@ resume-anim-div{
 
   }
 
+  .experience-cont{
+
+    width: 90%;
+  }
+
   .name{
 
     font-size:40px;
@@ -1291,8 +1296,5 @@ resume-anim-div{
     width:100%;
   }
 
-  .experience-cont{
 
-    width: 90%;
-  }
 }
