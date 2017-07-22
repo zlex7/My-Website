@@ -1220,11 +1220,6 @@ resume-anim-div{
 
   }
 
-  .experience-cont{
-
-    width: 90%;
-  }
-
   .name{
 
     font-size:40px;
@@ -1296,4 +1291,8 @@ resume-anim-div{
     width:100%;
   }
 
+  .experience-cont{
+
+    width: 90%;
+  }
 }
