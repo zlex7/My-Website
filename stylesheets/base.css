@@ -1279,11 +1279,11 @@ resume-anim-div{
     margin:0px;
   }
 
-  #hire-btn,#work-btn{
+  #hire-btn,#work-btn,#resume-btn{
 
     font-size:12px;
-    padding-left:10px;
-    padding-right:10px;
+    padding-left:12px;
+    padding-right:12px;
   }
 
   #splitter{
@@ -1291,5 +1291,9 @@ resume-anim-div{
     width:90%;
   }
 
+  #resume-skills{
+
+    width:100%;
+  }
 
 }
