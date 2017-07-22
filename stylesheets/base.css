@@ -1213,6 +1213,32 @@ resume-anim-div{
     height:250px;
   }
 
+  .img-container{
+
+      width: 90%;
+
+  }
+
+  .name{
+
+    font-size:40px;
+
+  }
+
+  .cursive-hello{
+
+    font-size:25px;
+  }
+
+  .cursive-hello-animated{
+
+    font-size:25px;
+  }
+
+  button{
+
+    font-size:12px;
+  }
 
   #logo{
 
@@ -1225,6 +1251,11 @@ resume-anim-div{
 
   .img-container{
 
-    width:95%;
+    width:100%;
+  }
+
+  .fa{
+
+    margin-top:10px;
   }
 }
