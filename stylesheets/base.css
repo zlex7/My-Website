@@ -247,7 +247,7 @@ margin:auto;
 
 .small-width{
 
-  width:60%;
+  width:65%;
 }
 
 
@@ -588,7 +588,6 @@ margin:auto;
 
 #title-small{
 
-  margin:50px;
   margin-left: 4em;
   margin-right: 4em;
 }
@@ -810,6 +809,7 @@ margin:auto;
   background-color: black;
 
 }
+
 #desc-h2-div-1{
 
   padding-bottom: 30px;
@@ -1194,5 +1194,27 @@ resume-anim-div{
 
   #ham-menu{
     display:block;
+  }
+
+  .small-width{
+
+    width: 90%;
+  }
+
+  .short-desc-h2::before,.short-desc-h2::after{
+
+    content: " ";
+    margin-bottom:9px;
+    height:2px;
+    width:80px;
+    display:inline-block;
+    background-color: black;
+
+  }
+
+  .project-container{
+
+    width:250px;
+    height:250px;
   }
 }
