@@ -1107,6 +1107,7 @@ resume-anim-div{
 .hamburger {
     display: none;
     cursor: pointer;
+    z-index:2;
 }
 
 .bar1, .bar2, .bar3 {
