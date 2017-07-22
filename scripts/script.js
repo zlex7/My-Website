@@ -21,3 +21,23 @@ var height = $("#logo").height();
 console.log("logo height: " + height);
 $("#logo").css({"width":height+"px"});
 */
+function hasClass(element, cls) {
+    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+}
+
+function hamAnim(hamburger){
+
+  hamburger.classList.toggle("change");
+
+  if(hasClass(hamburger,"change")){
+
+    document.getElementById("ham-menu").style.right="0px";
+
+  }
+
+  else{
+
+      document.getElementById("ham-menu").style.right="-300px";
+
+  }
+}
