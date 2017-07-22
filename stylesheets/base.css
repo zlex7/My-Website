@@ -1220,6 +1220,11 @@ resume-anim-div{
 
   }
 
+  .experience-cont{
+
+    width: 90%;
+  }
+
   .name{
 
     font-size:40px;
@@ -1256,8 +1261,15 @@ resume-anim-div{
   }
 
   .fa{
+      font-size:25px;
+      padding:15px;
+      width: auto;
+  }
 
-    margin-top:10px;
+  .fa-facebook{
+
+    padding-left:20px;
+    padding-right:20px;
   }
 
   #hire-btn,#work-btn{
