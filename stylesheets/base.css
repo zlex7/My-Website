@@ -1203,12 +1203,7 @@ resume-anim-div{
 
   .short-desc-h2::before,.short-desc-h2::after{
 
-    content: " ";
-    margin-bottom:9px;
-    height:2px;
-    width:80px;
-    display:inline-block;
-    background-color: black;
+
 
   }
 
@@ -1216,5 +1211,19 @@ resume-anim-div{
 
     width:250px;
     height:250px;
+  }
+
+  #logo{
+
+    top: 15px;
+    left:15px;
+    
+  }
+}
+
+@media screen and (max-width:500px){
+
+  .text-container{
+    text-align:left;
   }
 }
