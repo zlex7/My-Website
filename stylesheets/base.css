@@ -1203,7 +1203,7 @@ resume-anim-div{
 
   .short-desc-h2::before,.short-desc-h2::after{
 
-
+    display:none;
 
   }
 
@@ -1213,17 +1213,18 @@ resume-anim-div{
     height:250px;
   }
 
+
   #logo{
 
-    top: 15px;
     left:15px;
-    
+
   }
 }
 
 @media screen and (max-width:500px){
 
-  .text-container{
-    text-align:left;
+  .img-container{
+
+    width:95%;
   }
 }
