@@ -1262,14 +1262,21 @@ resume-anim-div{
 
   .fa{
       font-size:25px;
-      padding:15px;
+      padding:12px;
       width: auto;
+      margin-left:3px;
+      margin-right:3px;
   }
 
   .fa-facebook{
 
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:18px;
+    padding-right:18px;
+  }
+
+  .skill-div{
+
+    margin:0px;
   }
 
   #hire-btn,#work-btn{
