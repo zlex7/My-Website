@@ -1186,8 +1186,8 @@ resume-anim-div{
 	
   .project-container{
 
-    width:250px;
-    height:250px;
+    width:300px;
+    height:300px;
   }
 
 }
@@ -1222,6 +1222,12 @@ resume-anim-div{
 
       width: 90%;
 
+  }
+  
+  .project-container{
+
+    width:250px;
+    height:250px;
   }
 
   .experience-cont{
