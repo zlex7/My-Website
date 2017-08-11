@@ -1183,6 +1183,16 @@ resume-anim-div{
 
 
 @media screen and (max-width:750px){
+	
+  .project-container{
+
+    width:250px;
+    height:250px;
+  }
+
+}
+
+@media screen and (max-width:750px){
 
   .tab-link{
     display:none;
@@ -1206,12 +1216,6 @@ resume-anim-div{
 
     display:none;
 
-  }
-
-  .project-container{
-
-    width:250px;
-    height:250px;
   }
 
   .img-container{
